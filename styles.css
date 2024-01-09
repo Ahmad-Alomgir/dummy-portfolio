@@ -89,6 +89,13 @@ background-position: bottom right;
     max-width: 500px;
 }
 /* Main section styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+#what{
+    padding: 30px 150px;
+}
 
 
 /*about  */
@@ -98,4 +105,11 @@ background-position: bottom right;
     background: #FFF8F3;
     margin: 130px 0px;
 
+}
+.about_info_contain{
+   display: flex; 
+   justify-content: space-around;
+}
+.about_info{
+    text-align: center;
 }
