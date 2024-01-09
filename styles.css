@@ -47,6 +47,9 @@ nav a{
 /* header work */
 .header_class{
 background-color: #FFF8F3 ;
+background-image: url(images/header_bg.png);
+background-repeat: no-repeat;
+background-position: bottom right;
 
 }
 .banner{
@@ -56,4 +59,16 @@ background-color: #FFF8F3 ;
 }
 .banner .picture{
     width: 500px;
+    padding: 0px;
+}
+.greet{
+  font-size: 45px;  
+  color: #474747;
+  margin-bottom: 0px;
+}
+.bn_title{
+    font-size: 85px;
+    font-weight: 700px;
+    margin-top: 5px;
+    margin-bottom:20px ;
 }
