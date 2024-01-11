@@ -222,4 +222,55 @@ textarea {
     border-radius: 5px;
     border: 0;
     width: 80%;
+/*Rseponsive Design*/
+
+/*Mobile device*/
+
+.hide{
+    display: none;
+}
+}
+@media screen and (max-width: 576px) {
+    .header_class{
+        background-image: none;
+    }
+    .banner .picture{
+        width: 100%;
+    }
+
+   nav,nav >ul, .banner,.skills_con,.resume_con,footer,.about_info_contain{
+        flex-direction: column;
+    }
+    nav > ul{
+        gap: 10px;
+    }
+   .banner, #what{
+        padding: 20px;
+    }
+    .btn_primary{
+        margin-bottom: 15px;
+    }
+    footer, .about{
+        padding: 10px;
+    }
+    .footer_column{
+        width: 100%;
+    }
+
+    .contact input[type="text"],
+    .contact input[type="email"],
+    textarea{
+        width: 80%;
+    }
+   
+}
+@media screen and (min-width: 576px) and (max-width:960px) {
+
+    footer{
+        padding: 30px;
+    }
+    .btn_primary{
+     margin-bottom: 15px;   
+    }
+
 }
